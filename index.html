@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     Podaj 1 liczbe: <input type="number" id="number_one"><br>
@@ -14,7 +15,11 @@
     <button type="submit" id="btn_minus">-</button>
     <button type="submit" id="btn_razy">*</button>
     <button type="submit" id="btn_dzielenie">/</button>
-    <button type="submit" id="wyczysc">Clear</button><br><br>
+    <button type="submit" id="wyczysc">Clear</button><br>
+    <div id="history" style="height: 100px;"></div>
+    <button type="submit" id="pokaz">Pokaż historie</button>
+    <button type="submit" id="ukryj">Ukryj historie</button>
+    <button type="submit" id="clear_history">Wyczyść histore</button><br>
     Wynik działania: <input type="text" id="value_wynik" disabled>
 </body>
 </html>
